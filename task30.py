@@ -7,6 +7,6 @@ first_el = int(input('Enter the first element: '))
 d = int(input('Enter the difference: '))
 a = int(input('Enter the amount of elements: '))
 list = []
-# for i in range(a):
-#     list.append(firs_el + i*d)
-# print(list)
+for i in range(a):
+    list.append(firs_el + i*d)
+print(list)
